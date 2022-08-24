@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Architecture_program">
         <activity
+            android:name=".mvvm_004.MVVM4_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".mvvm_001.MVVM1_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".mvvm_002.MVVM2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".mvvm_003.MVVM3_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MvvmActivity"
             android:exported="true">
             <intent-filter>

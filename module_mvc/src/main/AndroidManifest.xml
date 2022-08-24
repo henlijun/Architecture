@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Architecture_program">
         <activity
+            android:name=".ctrl_2.Control2_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ctrl_1.Control1_Activity"
+            android:exported="false" />
+        <activity
             android:name=".MvcActivity"
             android:exported="true">
             <intent-filter>

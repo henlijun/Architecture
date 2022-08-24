@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginRight="20dp">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.hefu.module_mvvm.mvvm_004.StringBean" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#DA8841"
+            android:gravity="center_vertical"
+            android:text="@{item.name}" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:text="Del"
+            android:padding="2dp"
+            android:background="#DA1E1E" />
+    </FrameLayout>
+</layout>
